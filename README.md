@@ -11,7 +11,7 @@ npm install wavy-header-react-native
 ## Usage
 
 ```js
-import { multiply } from 'wavy-header-react-native';
+import { WavyBackground } from 'wavy-header-react-native';
 
 // ...
 
