@@ -31,7 +31,7 @@ import { WavyBackground } from 'wavy-header-react-native';
 ## Example
 
 <div>
-<img src="https://github.com/ShahirZain/wavy-header-react-native/tree/main/example/demo/combine_images.jpeg" alt="screens" />
+<img src="https://github.com/ShahirZain/wavy-header-react-native/blob/main/example/demo/combine_images.jpeg" alt="screens" />
 </div>
 
 ## Utilization
