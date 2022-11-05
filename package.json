@@ -1,7 +1,7 @@
 {
   "name": "wavy-header-react-native",
   "version": "0.1.0",
-  "description": "test",
+  "description": "wavy header for the react native application",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
   "types": "lib/typescript/src/index.d.ts",

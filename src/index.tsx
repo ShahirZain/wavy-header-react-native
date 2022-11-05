@@ -21,7 +21,7 @@ const WavyBackground = (props: Props) => {
     width,
     height,
     offset,
-    color = 'black',
+    color = '#06D6BC',
     bottom = false,
     style,
     maxHeight,
