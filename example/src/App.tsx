@@ -1,31 +1,31 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'wavy-header-react-native';
+import { StyleSheet, View } from 'react-native';
+import WavyBackground from 'wavy-header-react-native';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
+    <View style={{ flex: 1, justifyContent: 'flex-end' }}>
+      <WavyBackground
+        height={140}
+        width={1100}
+        amplitude={30}
+        frequency={4}
+        offset={100}
+        color={'#06D6BC'}
+        maxHeight={290}
+        style={styles.wavesStyle}
+        bottom
+      />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
+  wavesStyle: {
+    bottom: 0,
+    height: 360,
+    zIndex: 100,
+    width: '100%',
   },
 });
